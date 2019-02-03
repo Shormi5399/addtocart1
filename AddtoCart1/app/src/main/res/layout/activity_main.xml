@@ -61,9 +61,17 @@
             android:text="           Edition:__________________________"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textSize="18sp"/>
-
+        
         <TextView
             android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="           Address:__________________________"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="            Price:_____________"
