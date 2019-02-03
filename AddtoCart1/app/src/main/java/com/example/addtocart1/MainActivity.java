@@ -35,7 +35,11 @@ public class MainActivity extends AppCompatActivity {
         add = (Button) findViewById(R.id.button);
         buy = (Button) findViewById(R.id.button2);
         builder = new AlertDialog.Builder(this);
-
+            //this is for backbutton
+             if(getSupportActionBar()!=null){
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
 
         add.setOnClickListener(new View.OnClickListener() {
             @Override
